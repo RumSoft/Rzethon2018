@@ -1,0 +1,134 @@
+ <!DOCTYPE html>
+
+  <html>
+
+    <head>
+
+      <!--Import Google Icon Font-->
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!--Import materialize.css-->
+
+      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"  media="screen,projection"/>
+
+      <link type="text/css" rel="stylesheet" href="form.css" media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    </head>
+
+
+
+    <body>
+
+	
+
+
+
+<div class="container">
+
+
+
+  <div class="titlerow">Response dashboard!</div>
+
+  <div class="formrow">
+
+<form>
+
+  Enter response:<br>
+
+  <input type="text" name="text" id="text"><br>
+
+  <input id="submit" class="button waves-effect waves-light btn" type="button" value="Submit">
+
+</form></div>
+
+    
+
+</div>
+
+        
+
+
+
+        
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <!--JavaScript at end of body for optimized loading-->
+
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+
+<script src="form.js"></script>
+
+<script src="jquery-3.3.1.min.js"></script>
+
+<script>
+
+
+
+	const btnSubmit = document.getElementById('submit');
+
+
+
+	btnSubmit.addEventListener('click', send);
+
+
+
+	function send() {
+
+console.log('test');
+
+	const input = document.getElementById('text');
+
+	const textValue = input.value;
+
+
+
+	const data = {
+
+		text: textValue
+
+	};
+
+var url = 'http://localhost:5000/resp?text=' + textValue
+console.log(url);
+
+
+	fetch(url, {
+
+        	method: "POST",
+
+        	headers: {
+
+            		// "Content-Type": "application/json"
+
+        	},
+
+        	// body: JSON.stringify(data)
+
+    	}).then(response => response.json())
+
+	.then(res => console.log(res))
+  $("#text").val("");
+   $.alert({
+
+    title: 'Response sent!',
+
+    content: '',
+
+});
+
+  }
+
+  
+
+</script>
+
+    </body>
+
+  </html>

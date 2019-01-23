@@ -1,0 +1,108 @@
+[{
+  "name": "Ratusz w Rzeszowie",
+  "tags": ["townhall"],
+  "lat": 50.03731744,
+  "long": 22.00399786
+},
+{
+  "name": "Muzeum historii miasta Rzeszowa",
+  "tags": ["museum"],
+  "lat": 50.03759308,
+  "long": 22.00411052
+},
+{
+  "name": "Grzesznicy",
+  "tags": ["restaurant"],
+  "lat": 50.0369591,
+  "long": 22.00166434
+},
+{
+  "name": "KukNuk",
+  "tags": ["restaurant"],
+  "lat": 50.03788939,
+  "long": 22.0038262
+},
+{
+  "name": "Wojewódzki Dom Kultury",
+  "tags": ["culturalbuilding"],
+  "lat": 50.03938125,
+  "long": 22.00377792
+},
+{
+  "name": "Aryton",
+  "tags": ["clothesshop"],
+  "lat":50.03946049,
+  "long": 22.00430363
+},
+{
+  "name": "Galeria Rzeszów",
+  "tags": ["shoppingcenter"],
+  "lat":50.0423545,
+  "long": 21.99787974
+},
+{
+  "name": "Kościół pw. Chrystusa Króla",
+  "tags": ["church"],
+  "lat":50.04109012,
+  "long": 21.99191183
+},
+{
+  "name": "New LOOK",
+  "tags": ["hairdresser"],
+  "lat":50.03986704,
+  "long": 21.98830158
+},
+{
+  "name": "Nasz Sklep",
+  "tags": ["supermarket"],
+  "lat":50.04074559,
+  "long": 21.98782951
+},
+{
+  "name": "Plac Targowy Wyspiańskiego",
+  "tags": ["marketplace"],
+  "lat":50.0379583,
+  "long": 21.98707312
+},
+{
+  "name": "Pomnik Czynu Rewolucyjnego",
+  "tags": ["monument"],
+  "lat":50.04057677,
+  "long": 21.99949175
+},
+{
+  "name": "Ziko",
+  "tags": ["chemistry"],
+  "lat":50.04103499,
+  "long": 22.00179309
+},
+{
+  "name": "Kantor Rzeszów",
+  "tags": ["cantor"],
+  "lat":50.0418894,
+  "long": 22.0029518
+},
+{
+  "name": "Millenium Bank",
+  "tags": ["bank"],
+  "lat":50.04113835,
+  "long": 22.00271577
+},
+{
+  "name": "Poczta Polska",
+  "tags": ["postoffice"],
+  "lat":50.04184117,
+  "long": 22.00465232
+},
+{
+  "name": "Hotel Polonia",
+  "tags": ["hotel"],
+  "lat":50.04214779,
+  "long": 22.00591296
+},
+{
+  "name": "Deutsche Bank",
+  "tags": ["bank"],
+  "lat":50.0387852,
+  "long": 22.00234562
+}]
