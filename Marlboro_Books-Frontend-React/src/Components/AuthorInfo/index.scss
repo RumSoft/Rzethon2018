@@ -1,0 +1,21 @@
+$menuWidth: 300px;
+$offsetY: 65px;
+$transition: 0.25s ease;
+
+.author-dashboard {
+  .paper {
+    padding: 1rem;
+  }
+
+  h1 {
+    line-height: 1;
+    padding: 0.25rem;
+    margin-left: -1rem;
+    margin-top: 0;
+    border-left: 5px solid #555;
+
+    small {
+      font-size: 1rem;
+    }
+  }
+}

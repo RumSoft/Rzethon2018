@@ -1,0 +1,52 @@
+$menuWidth: 300px;
+$offsetY: 65px;
+$transition: 0.25s ease;
+
+.dashboard main {
+  a {
+    text-decoration-line: none;
+  }
+
+  h1 {
+    font-weight: 400;
+    padding-left: 1rem;
+    color: #555;
+  }
+}
+
+.dashboard {
+  .menu>div {
+    width: 0px;
+    // transition: width $transition;
+  }
+
+  .bar,
+  .content {
+    left: 0;
+    // transition: margin-left $transition;
+  }
+
+  .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 5rem;
+  }
+
+  main {
+    padding: 1rem;
+    margin-top: $offsetY;
+  }
+
+  //when opened
+  &--open {
+    .menu>div {
+      width: $menuWidth;
+    }
+
+    .bar,
+    .content {
+
+      margin-left: $menuWidth;
+    }
+  }
+}
