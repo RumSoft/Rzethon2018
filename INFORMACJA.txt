@@ -1,0 +1,4 @@
+﻿Byłem w zespole Racjonalny Traktor
+Oddałem projekt Books - Nomadic Reader
+Ale współdziałałem w projekcie Smart Rzeszow - chat bot urzędnik
+Dlatego wstawiam kod z tamtego projektu
